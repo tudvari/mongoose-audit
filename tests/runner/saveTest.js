@@ -8,7 +8,7 @@ var blogSchema = new Schema({
 })
 var connection = mongoose.createConnection('mongodb://localhost/test')
 
-audit.initialize(connection)
+audit.initialize(connection, 'Blog')
 blogSchema.plugin(audit.plugin)
 
 
