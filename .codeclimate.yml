@@ -1,5 +1,5 @@
 ---
-engines:
+plugins:
   eslint:
     enabled: true
   duplication:
@@ -7,14 +7,10 @@ engines:
     config:
       languages:
       - "javascript"
-ratings:
-  paths:
-  - "**.md"
-exclude_paths:
+exclude_patterns:
   - tests.js
   - tests/
   - .editorconfig
   - .esformatter
   - .eslintrc.json
   - .travis.yml
-
