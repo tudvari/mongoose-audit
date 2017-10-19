@@ -1,6 +1,6 @@
-# mongoose-audit
+# mongoose-query-counter
 
-Audit plugin for mongoosejs
+Query counter for mongoosejs
 
 ## Features
 
