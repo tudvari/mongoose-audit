@@ -27,3 +27,18 @@ Audit plugin for mongoosejs
 	var article = new Blog({title: 'test Title1', name: 'testname'})
 
 ```
+
+### Results
+
+Every schema has a collection with the prefix Audit_. This collection collects the call numbers for every query type.
+
+#### Example record from Audit collection
+
+```json
+	{
+	    "_id" : ObjectId("59e8f04a458c8f0540eb54a0"),
+	    "functionality" : "save",
+	    "counter" : 1,
+	    "__v" : 0
+	}
+```
