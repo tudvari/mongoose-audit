@@ -1,18 +1,16 @@
 ---
 version: 2
-engines:
+plugins:
   eslint:
     enabled: true
+    config: .eslintrc
   duplication:
     enabled: true
     config:
       config: .eslintrc
       languages:
       - javascript:
-ratings:
-  paths:
-  - lib/**.js
-exclude_paths:
+exclude_patterns:
 - "**/node_modules/**/*"
 - tests/
 - .editorconfig
