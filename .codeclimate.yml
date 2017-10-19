@@ -4,6 +4,12 @@ plugins:
   eslint:
     enabled: true
     config: .eslintrc
+  duplication:
+    enabled: true
+    config:
+      config: ./.eslintrc.js
+      languages:
+      - javascript:
 exclude_patterns:
 - "**/node_modules/**/*"
 - tests/
