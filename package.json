@@ -8,6 +8,7 @@
   },
   "author": "",
   "license": "MIT",
+  "keywords": ["mongodb", "query", "counter", "mongoose", "mongoosejs"],
   "dependencies": {
     "mongoose": "^4.12.2"
   }
