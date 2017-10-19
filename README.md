@@ -3,6 +3,7 @@
 Query counter for mongoosejs
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9629572e791f04d7947d/maintainability)](https://codeclimate.com/github/tudvari/mongoose-query-counter/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9629572e791f04d7947d/test_coverage)](https://codeclimate.com/github/tudvari/mongoose-query-counter/test_coverage)
 
 ## Features
 

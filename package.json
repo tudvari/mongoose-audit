@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-audit",
+  "name": "mongoose-query-counter",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
