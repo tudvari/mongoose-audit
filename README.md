@@ -2,6 +2,8 @@
 
 Query counter for mongoosejs
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/9629572e791f04d7947d/maintainability)](https://codeclimate.com/github/tudvari/mongoose-query-counter/maintainability)
+
 ## Features
 
 - Query type counter: You are able to measure, the queries on your collection by type.
