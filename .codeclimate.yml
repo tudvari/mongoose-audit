@@ -1,16 +1,21 @@
 ---
-plugins:
+version: 2
+engines:
   eslint:
     enabled: true
   duplication:
     enabled: true
     config:
+      config: .eslintrc
       languages:
-      - "javascript"
-exclude_patterns:
-  - tests.js
-  - tests/
-  - .editorconfig
-  - .esformatter
-  - .eslintrc.json
-  - .travis.yml
+      - javascript:
+ratings:
+  paths:
+  - lib/**.js
+exclude_paths:
+- "**/node_modules/**/*"
+- tests/
+- .editorconfig
+- .esformatter
+- .eslintrc.json
+- .travis.yml
