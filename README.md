@@ -6,6 +6,11 @@ Query counter for mongoosejs
 
 - Query type counter: You are able to measure, the queries on your collection by type.
 
+### Installation
+
+```sh
+npm install mongoose-query-counter
+```
 ## Usage
 
 ```javascript
