@@ -16,7 +16,7 @@
     "mongoosejs"
   ],
   "dependencies": {
-    "mongoose": "^4.12.2"
+    "mongoose": "5.7.5"
   },
   "devDependencies": {
     "mocha": "^4.0.1",
